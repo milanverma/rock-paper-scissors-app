@@ -18,7 +18,7 @@ function play(playerSelection) {
         (playerSelection === "paper" && computerSelection === "rock") ||
         (playerSelection === "scissors" && computerSelection === "paper")
     ) {
-        resultText += "You win this round!";
+        resultText += "You win this round!!!!!!!!";
         playerScore++;
     } else {
         resultText += "Computer wins this round!";
